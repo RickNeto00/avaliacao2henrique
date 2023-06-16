@@ -1,0 +1,171 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f6f7;
+}
+
+.largura-site {
+    width: 1000px;
+    margin: 0 auto 80px;
+}
+
+header {
+    min-width: 1000px;
+    margin-bottom: 1em;
+}
+
+.menu-superior {
+    display: flex;
+    padding: 5px 0;
+    width: 1000px;
+    margin: auto;
+}
+
+.largura-minima-menu {
+    position: sticky;
+    top: 0;
+    background: white;
+    min-width: 1000px;
+}
+
+.menu-superior-esquerda {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+strong {
+    font-size: 3em;
+    background: linear-gradient(to right, #f35926 33%, #fcb929 33%, #fcb929 66%, #00b049 66%, #00b049);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-superior-direita {
+    text-align: right;
+    word-spacing: 45px;
+    margin: auto 0;
+}
+
+.menu-superior-esquerda,
+.menu-superior-direita {
+    flex: 1;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.fundo-barcos {
+    background-image: url(../img/barcos.webp);
+    background-size: 100% 100%;
+    height: 342px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.caixa-pesquisa {
+    background: white;
+    border-radius: 15px;
+    height: 142px;
+    width: 1000px;
+    margin: 50px auto 0 auto;
+    padding: 30px;
+}
+
+.formulario {
+    display: flex;
+    column-gap: 10px;
+}
+
+::placeholder {
+    font-size: 1.5em;
+}
+
+.form-flex {
+    width: 180px;
+    padding: 5px;
+}
+
+.botao-caixa-pesquisa {
+    background: #ea3d35;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: 1px solid #ea3d35;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+section {
+    flex: 200px;
+}
+
+.caixa-destino {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.rio {
+    background-image: url(../img/rio.webp);
+}
+
+.bonito {
+    background-image: url(../img/bonito.webp);
+}
+
+.sao-paulo {
+    background-image: url(../img/sao-paulo.webp);
+}
+
+.foz-iguacu {
+    background-image: url(../img/foz.webp);
+}
+
+.maceio {
+    background-image: url(../img/maceio.webp);
+}
+
+.salvador {
+    background-image: url(../img/salvador.webp);
+}
+
+.fortaleza {
+    background-image: url(../img/fortaleza.webp);
+}
+
+.belo-horizonte {
+    background-image: url(../img/belo-horizonte.webp);
+}
+
+.botao-caixa-destino {
+    font-size: 0.9em;
+    font-weight: 100;
+    border-radius: 20px;
+    height: 31px;
+    width: 146px;
+    border: 0 solid white;
+    box-shadow: 1px 1px 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 45px;
+}
+
+.preco {
+    font-size: 2em;
+    margin: 20px;
+}
